@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sud service ssh status

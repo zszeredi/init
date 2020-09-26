@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo service ssh status | grep "PID" | awk '{prints $1, $2, $3}'
