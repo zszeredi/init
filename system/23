@@ -1,0 +1,2 @@
+Graphic session: sudo useradd cica
+SSH session: ssh-keygen and then ssh username@ipaddress
