@@ -1,3 +1,3 @@
 #!/bin/bash
 
-apt list
+apt list --installed

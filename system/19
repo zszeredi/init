@@ -1,3 +1,3 @@
 #!/bin/bash
 
-systemctl list-dependencies --before boot
+systemctl list-unit-files --type=service

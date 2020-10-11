@@ -1,3 +1,7 @@
-echo 'please type username'
-read username
-passwd -l $username | sudo killall -u $username | find /var/spool/at/ -name "[^.]*" -type f -user $username -delete | crontab -r -u $username | lprm $username | sudo userdel -rf $username
+#!/bin/bash
+
+if [[ -d /home/$1 ]]; then
+	userdel -r $1
+fi
+
+exit

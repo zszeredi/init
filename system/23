@@ -1,2 +1,2 @@
-Graphic session: sudo useradd cica
-SSH session: ssh-keygen and then ssh username@ipaddress
+Graphic session: enter login and password
+SSH session: ssh 'mylogin'@'myIP/hostname'. Enter password when asked.

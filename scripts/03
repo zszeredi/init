@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo 'change all confidental files to read only' | grep 'conf' | chmod 444 conf* | ls -la
+echo 'change all files with confidental in title to read only' | grep 'conf' | chmod 444 conf* | ls -la

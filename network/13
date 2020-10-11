@@ -1,1 +1,3 @@
-s19.be
+nslookup 10.51.1.1 | grep 'name' | awk '{printf $4}'
+ns1.s19.be.
+
